@@ -1,0 +1,93 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:name="vector"
+            android:width="500dp"
+            android:height="500dp"
+            android:viewportWidth="500"
+            android:viewportHeight="500">
+            <group android:name="group">
+                <path
+                    android:name="path"
+                    android:pathData="M 260 206.111 C 245.2 206.111 233.2 218.111 233.2 232.911 C 233.2 246.111 254.4 278.511 259.1 285.611 C 259.5 286.311 260.5 286.311 260.9 285.611 C 265.6 278.511 286.8 246.111 286.8 232.911 C 286.8 218.111 274.8 206.111 260 206.111 Z"
+                    android:fillColor="#b3b5b3"
+                    android:strokeWidth="1"/>
+                <path
+                    android:name="path_1"
+                    android:pathData="M 276.8 231.711 C 276.8 241.011 269.3 248.511 260 248.511 C 250.7 248.511 243.2 241.011 243.2 231.711 C 243.2 222.411 250.7 214.911 260 214.911 C 269.3 214.911 276.8 222.511 276.8 231.711 Z"
+                    android:fillColor="#ffffff"
+                    android:strokeWidth="1"/>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/anticipate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="-100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/anticipate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/anticipate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+                <objectAnimator
+                    android:propertyName="translateY"
+                    android:startOffset="1500"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:anim/anticipate_interpolator"/>
+                <objectAnimator
+                    android:propertyName="translateX"
+                    android:startOffset="1500"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="-100"
+                    android:valueType="floatType"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
